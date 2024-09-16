@@ -1,4 +1,4 @@
-age = input("How old are you ?")
+age = input("How old are you?")
 
 
 
