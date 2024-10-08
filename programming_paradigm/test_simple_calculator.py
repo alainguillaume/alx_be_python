@@ -20,13 +20,13 @@ class TestSimpleCalculator(unittest.TestCase):
 
 
 
-    def test_multiply(self):
+    def test_multiplication(self):
         self.assertEqual(self.calc.multiply(5, 3), 15)
         self.assertEqual(self.calc.multiply(-1, 1), -1)
         self.assertEqual(self.calc.multiply(-1, -1), 1)
 
 
-    def test_devide(self):
+    def test_devision(self):
         self.assertEqual(self.calc.divide(10, 5), 2)
         self.assertEqual(self.calc.divide(-1, 1), -1)
         self.assertEqual(self.calc.divide(-1, -1), 1)
